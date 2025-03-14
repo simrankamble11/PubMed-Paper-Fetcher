@@ -3,7 +3,7 @@ This Python script allows users to fetch research papers from PubMed based on a 
 How the Code is Organized
 1.	main.py: This is the main entry point of the script. It accepts user input, fetches the relevant research papers from PubMed, filters them, and saves them to a CSV file or prints them to the console.
 
-2.	pubmed_fetcher.py: This file contains functions that interact with the PubMed API to fetch paper details based on a search query.
+2.	get-papers-list.py: This file contains functions that interact with the PubMed API to fetch paper details based on a search query.
    
    o	fetch_papers(query): Fetches paper IDs based on a search query.
 
