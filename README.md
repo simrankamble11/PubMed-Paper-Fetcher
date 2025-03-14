@@ -91,6 +91,33 @@ o	argparse Documentation
 
 •	csv Library: Used to write the results into a CSV file.
 
+Sample Output:
+
+The final CSV file (output.csv) contains rows of papers that matched the filtering criteria. The columns include:
+
+•	PubMed ID
+
+•	Title
+
+•	PubDate
+
+•	Non-academic Author(s)
+
+•	Company Affiliation(s)
+
+•	Corresponding Author Email
+
+Debugging Output:
+
+The console output during the process provides insights into the paper processing:
+
+         Starting to save results to output.csv...
+         Field names: ['PubMedID', 'Title', 'PubDate', 'Non-academic Author(s)', 'Company Affiliation(s)', 'Corresponding Author Email']
+         Processing paper 1: Sample Research Paper
+         Excluding paper with PubMedID 12345678 due to lack of non-academic affiliation.
+         Processing paper 2: Another Research Paper
+         Written paper with PubMedID 87654321 to CSV.
+         Results successfully saved to output.csv
 
 
 
